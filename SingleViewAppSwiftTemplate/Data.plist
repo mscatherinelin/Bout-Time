@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>LA </key>
+	<integer>2028</integer>
+	<key>Paris</key>
+	<integer>2024</integer>
+	<key>Tokyo</key>
+	<integer>2020</integer>
+	<key>Pyeongchang</key>
+	<integer>2018</integer>
+	<key>Rio</key>
+	<real>2016</real>
+	<key>Sochi</key>
+	<real>2014</real>
+	<key>London</key>
+	<real>2012</real>
+	<key>Vancouver</key>
+	<real>2010</real>
+	<key>Beijing</key>
+	<integer>2008</integer>
+	<key>Turin</key>
+	<integer>2006</integer>
+	<key>Athens</key>
+	<real>2004</real>
+	<key>Salt Lake City</key>
+	<real>2002</real>
+	<key>Sydney</key>
+	<real>2000</real>
+	<key>Nagano</key>
+	<real>1998</real>
+	<key>Atlanta</key>
+	<real>1996</real>
+	<key>Lillehammer</key>
+	<real>1994</real>
+	<key>Barcelona</key>
+	<real>1992</real>
+	<key>Seoul</key>
+	<real>1988</real>
+	<key>Sarajevo</key>
+	<real>1984</real>
+	<key>Lake Placid</key>
+	<integer>1980</integer>
+	<key>Moscow</key>
+	<integer>1980</integer>
+	<key>Calgary</key>
+	<integer>1988</integer>
+	<key>Los Angeles</key>
+	<integer>1984</integer>
+	<key>BeiJing</key>
+	<integer>2022</integer>
+	<key>Albertville</key>
+	<integer>1992</integer>
+</dict>
+</plist>

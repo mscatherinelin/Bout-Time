@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="gja-VF-lWK">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="T2b-p9-aDv">
+            <objects>
+                <viewController id="gja-VF-lWK" customClass="ViewController" customModule="SingleViewAppSwiftTemplate" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hLK-j6-UXO"/>
+                        <viewControllerLayoutGuide type="bottom" id="Dvh-ok-vQ2"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="88E-SC-uvT">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0lu-Vp-8QA">
+                                <rect key="frame" x="42" y="40" width="330" height="96"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="0lu-Vp-8QA" secondAttribute="height" multiplier="244:71" id="XVg-Tr-29H"/>
+                                </constraints>
+                                <state key="normal" title="Button 1">
+                                    <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AOA-lW-pPx">
+                                <rect key="frame" x="42" y="276" width="330" height="96"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="AOA-lW-pPx" secondAttribute="height" multiplier="244:71" id="4ib-er-cOk"/>
+                                </constraints>
+                                <state key="normal" title="Button 3">
+                                    <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="up_half" translatesAutoresizingMaskIntoConstraints="NO" id="qu3-eh-LsE">
+                                <rect key="frame" x="336" y="276" width="36" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yOI-YR-WkS">
+                                <rect key="frame" x="42" y="394" width="330" height="96"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="yOI-YR-WkS" secondAttribute="height" multiplier="244:71" id="0qf-yY-Lgq"/>
+                                </constraints>
+                                <state key="normal" title="Button 4">
+                                    <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="up_full" translatesAutoresizingMaskIntoConstraints="NO" id="ErU-pE-Yyn">
+                                <rect key="frame" x="336" y="394" width="36" height="96"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nwt-pr-RrS">
+                                <rect key="frame" x="42" y="158" width="330" height="96"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="nwt-pr-RrS" secondAttribute="height" multiplier="244:71" id="6Lg-BQ-p6r"/>
+                                </constraints>
+                                <state key="normal" title="Button 2">
+                                    <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="down_half" translatesAutoresizingMaskIntoConstraints="NO" id="7iJ-Ym-6Pf">
+                                <rect key="frame" x="336" y="206" width="36" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="up_half" translatesAutoresizingMaskIntoConstraints="NO" id="L4u-vv-Ddc">
+                                <rect key="frame" x="336" y="158" width="36" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="down_full" translatesAutoresizingMaskIntoConstraints="NO" id="Aqi-gN-zzj">
+                                <rect key="frame" x="336" y="40" width="36" height="96"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="down_half" translatesAutoresizingMaskIntoConstraints="NO" id="Aqt-3U-1ip">
+                                <rect key="frame" x="336" y="324" width="36" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.023548575120000002" green="0.1596600115" blue="0.29312524200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="0lu-Vp-8QA" firstAttribute="leading" secondItem="88E-SC-uvT" secondAttribute="leadingMargin" constant="22" id="5Ib-iX-TOj"/>
+                            <constraint firstItem="0lu-Vp-8QA" firstAttribute="top" secondItem="hLK-j6-UXO" secondAttribute="bottom" constant="20" id="67L-2u-w2t"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="AOA-lW-pPx" secondAttribute="trailing" constant="22" id="8qs-pt-Jxf"/>
+                            <constraint firstItem="yOI-YR-WkS" firstAttribute="leading" secondItem="88E-SC-uvT" secondAttribute="leadingMargin" constant="22" id="Bsl-hF-xDn"/>
+                            <constraint firstItem="nwt-pr-RrS" firstAttribute="leading" secondItem="88E-SC-uvT" secondAttribute="leadingMargin" constant="22" id="HEa-fC-igX"/>
+                            <constraint firstItem="yOI-YR-WkS" firstAttribute="top" secondItem="AOA-lW-pPx" secondAttribute="bottom" constant="22" id="HEl-g2-smb"/>
+                            <constraint firstItem="AOA-lW-pPx" firstAttribute="top" secondItem="nwt-pr-RrS" secondAttribute="bottom" constant="22" id="OLK-DA-o2X"/>
+                            <constraint firstItem="nwt-pr-RrS" firstAttribute="top" secondItem="0lu-Vp-8QA" secondAttribute="bottom" constant="22" id="Tal-Lc-imZ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="0lu-Vp-8QA" secondAttribute="trailing" constant="22" id="TlB-GM-9R3"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="yOI-YR-WkS" secondAttribute="trailing" constant="22" id="Vk3-zH-4NE"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="nwt-pr-RrS" secondAttribute="trailing" constant="22" id="vpJ-xZ-HDB"/>
+                            <constraint firstItem="AOA-lW-pPx" firstAttribute="leading" secondItem="88E-SC-uvT" secondAttribute="leadingMargin" constant="22" id="yMX-U3-Lzg"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Ipt-qM-Bjp"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h08-fl-rjj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-144.92753623188406" y="-393.75000000000006"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="down_full" width="158" height="457"/>
+        <image name="down_half" width="158" height="229"/>
+        <image name="up_full" width="158" height="457"/>
+        <image name="up_half" width="158" height="229"/>
+    </resources>
+</document>
