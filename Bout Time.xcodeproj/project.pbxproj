@@ -37,16 +37,16 @@
 /* Begin PBXFileReference section */
 		0647C03520002BCF0069EB11 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		06BE6DFC1FFEFDBB007A84B1 /* Data.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Data.plist; sourceTree = "<group>"; };
-		3A8AADC51DF9B85E00A2B931 /* SingleViewAppSwiftTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SingleViewAppSwiftTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A8AADC51DF9B85E00A2B931 /* Bout Time.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bout Time.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A8AADC81DF9B85E00A2B931 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A8AADCA1DF9B85E00A2B931 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3A8AADCD1DF9B85E00A2B931 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3A8AADCF1DF9B85E00A2B931 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A8AADD41DF9B85E00A2B931 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3A8AADD91DF9B85E00A2B931 /* SingleViewAppSwiftTemplateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SingleViewAppSwiftTemplateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A8AADD91DF9B85E00A2B931 /* Bout TimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bout TimeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A8AADDD1DF9B85E00A2B931 /* SingleViewAppSwiftTemplateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleViewAppSwiftTemplateTests.swift; sourceTree = "<group>"; };
 		3A8AADDF1DF9B85E00A2B931 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3A8AADE41DF9B85E00A2B931 /* SingleViewAppSwiftTemplateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SingleViewAppSwiftTemplateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A8AADE41DF9B85E00A2B931 /* Bout TimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bout TimeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A8AADE81DF9B85E00A2B931 /* SingleViewAppSwiftTemplateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleViewAppSwiftTemplateUITests.swift; sourceTree = "<group>"; };
 		3A8AADEA1DF9B85E00A2B931 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -89,9 +89,9 @@
 		3A8AADC61DF9B85E00A2B931 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3A8AADC51DF9B85E00A2B931 /* SingleViewAppSwiftTemplate.app */,
-				3A8AADD91DF9B85E00A2B931 /* SingleViewAppSwiftTemplateTests.xctest */,
-				3A8AADE41DF9B85E00A2B931 /* SingleViewAppSwiftTemplateUITests.xctest */,
+				3A8AADC51DF9B85E00A2B931 /* Bout Time.app */,
+				3A8AADD91DF9B85E00A2B931 /* Bout TimeTests.xctest */,
+				3A8AADE41DF9B85E00A2B931 /* Bout TimeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -131,9 +131,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3A8AADC41DF9B85E00A2B931 /* SingleViewAppSwiftTemplate */ = {
+		3A8AADC41DF9B85E00A2B931 /* Bout Time */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3A8AADED1DF9B85E00A2B931 /* Build configuration list for PBXNativeTarget "SingleViewAppSwiftTemplate" */;
+			buildConfigurationList = 3A8AADED1DF9B85E00A2B931 /* Build configuration list for PBXNativeTarget "Bout Time" */;
 			buildPhases = (
 				3A8AADC11DF9B85E00A2B931 /* Sources */,
 				3A8AADC21DF9B85E00A2B931 /* Frameworks */,
@@ -143,14 +143,14 @@
 			);
 			dependencies = (
 			);
-			name = SingleViewAppSwiftTemplate;
+			name = "Bout Time";
 			productName = SingleViewAppSwiftTemplate;
-			productReference = 3A8AADC51DF9B85E00A2B931 /* SingleViewAppSwiftTemplate.app */;
+			productReference = 3A8AADC51DF9B85E00A2B931 /* Bout Time.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3A8AADD81DF9B85E00A2B931 /* SingleViewAppSwiftTemplateTests */ = {
+		3A8AADD81DF9B85E00A2B931 /* Bout TimeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3A8AADF01DF9B85E00A2B931 /* Build configuration list for PBXNativeTarget "SingleViewAppSwiftTemplateTests" */;
+			buildConfigurationList = 3A8AADF01DF9B85E00A2B931 /* Build configuration list for PBXNativeTarget "Bout TimeTests" */;
 			buildPhases = (
 				3A8AADD51DF9B85E00A2B931 /* Sources */,
 				3A8AADD61DF9B85E00A2B931 /* Frameworks */,
@@ -161,14 +161,14 @@
 			dependencies = (
 				3A8AADDB1DF9B85E00A2B931 /* PBXTargetDependency */,
 			);
-			name = SingleViewAppSwiftTemplateTests;
+			name = "Bout TimeTests";
 			productName = SingleViewAppSwiftTemplateTests;
-			productReference = 3A8AADD91DF9B85E00A2B931 /* SingleViewAppSwiftTemplateTests.xctest */;
+			productReference = 3A8AADD91DF9B85E00A2B931 /* Bout TimeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		3A8AADE31DF9B85E00A2B931 /* SingleViewAppSwiftTemplateUITests */ = {
+		3A8AADE31DF9B85E00A2B931 /* Bout TimeUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3A8AADF31DF9B85E00A2B931 /* Build configuration list for PBXNativeTarget "SingleViewAppSwiftTemplateUITests" */;
+			buildConfigurationList = 3A8AADF31DF9B85E00A2B931 /* Build configuration list for PBXNativeTarget "Bout TimeUITests" */;
 			buildPhases = (
 				3A8AADE01DF9B85E00A2B931 /* Sources */,
 				3A8AADE11DF9B85E00A2B931 /* Frameworks */,
@@ -179,9 +179,9 @@
 			dependencies = (
 				3A8AADE61DF9B85E00A2B931 /* PBXTargetDependency */,
 			);
-			name = SingleViewAppSwiftTemplateUITests;
+			name = "Bout TimeUITests";
 			productName = SingleViewAppSwiftTemplateUITests;
-			productReference = 3A8AADE41DF9B85E00A2B931 /* SingleViewAppSwiftTemplateUITests.xctest */;
+			productReference = 3A8AADE41DF9B85E00A2B931 /* Bout TimeUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -210,7 +210,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3A8AADC01DF9B85E00A2B931 /* Build configuration list for PBXProject "SingleViewAppSwiftTemplate" */;
+			buildConfigurationList = 3A8AADC01DF9B85E00A2B931 /* Build configuration list for PBXProject "Bout Time" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -223,9 +223,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3A8AADC41DF9B85E00A2B931 /* SingleViewAppSwiftTemplate */,
-				3A8AADD81DF9B85E00A2B931 /* SingleViewAppSwiftTemplateTests */,
-				3A8AADE31DF9B85E00A2B931 /* SingleViewAppSwiftTemplateUITests */,
+				3A8AADC41DF9B85E00A2B931 /* Bout Time */,
+				3A8AADD81DF9B85E00A2B931 /* Bout TimeTests */,
+				3A8AADE31DF9B85E00A2B931 /* Bout TimeUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -289,12 +289,12 @@
 /* Begin PBXTargetDependency section */
 		3A8AADDB1DF9B85E00A2B931 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3A8AADC41DF9B85E00A2B931 /* SingleViewAppSwiftTemplate */;
+			target = 3A8AADC41DF9B85E00A2B931 /* Bout Time */;
 			targetProxy = 3A8AADDA1DF9B85E00A2B931 /* PBXContainerItemProxy */;
 		};
 		3A8AADE61DF9B85E00A2B931 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3A8AADC41DF9B85E00A2B931 /* SingleViewAppSwiftTemplate */;
+			target = 3A8AADC41DF9B85E00A2B931 /* Bout Time */;
 			targetProxy = 3A8AADE51DF9B85E00A2B931 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -436,7 +436,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.teamtreehouse.SingleViewAppSwiftTemplateTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SingleViewAppSwiftTemplate.app/SingleViewAppSwiftTemplate";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bout Time.app/Bout Time";
 			};
 			name = Debug;
 		};
@@ -450,7 +450,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.teamtreehouse.SingleViewAppSwiftTemplateTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SingleViewAppSwiftTemplate.app/SingleViewAppSwiftTemplate";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bout Time.app/Bout Time";
 			};
 			name = Release;
 		};
@@ -483,7 +483,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3A8AADC01DF9B85E00A2B931 /* Build configuration list for PBXProject "SingleViewAppSwiftTemplate" */ = {
+		3A8AADC01DF9B85E00A2B931 /* Build configuration list for PBXProject "Bout Time" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3A8AADEB1DF9B85E00A2B931 /* Debug */,
@@ -492,7 +492,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3A8AADED1DF9B85E00A2B931 /* Build configuration list for PBXNativeTarget "SingleViewAppSwiftTemplate" */ = {
+		3A8AADED1DF9B85E00A2B931 /* Build configuration list for PBXNativeTarget "Bout Time" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3A8AADEE1DF9B85E00A2B931 /* Debug */,
@@ -501,7 +501,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3A8AADF01DF9B85E00A2B931 /* Build configuration list for PBXNativeTarget "SingleViewAppSwiftTemplateTests" */ = {
+		3A8AADF01DF9B85E00A2B931 /* Build configuration list for PBXNativeTarget "Bout TimeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3A8AADF11DF9B85E00A2B931 /* Debug */,
@@ -510,7 +510,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3A8AADF31DF9B85E00A2B931 /* Build configuration list for PBXNativeTarget "SingleViewAppSwiftTemplateUITests" */ = {
+		3A8AADF31DF9B85E00A2B931 /* Build configuration list for PBXNativeTarget "Bout TimeUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3A8AADF41DF9B85E00A2B931 /* Debug */,
