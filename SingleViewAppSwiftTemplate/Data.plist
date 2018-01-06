@@ -24,7 +24,7 @@
 	<integer>2006</integer>
 	<key>Athens</key>
 	<real>2004</real>
-	<key>Salt Lake City</key>
+	<key>SaltLakeCity</key>
 	<real>2002</real>
 	<key>Sydney</key>
 	<real>2000</real>
@@ -40,17 +40,17 @@
 	<real>1988</real>
 	<key>Sarajevo</key>
 	<real>1984</real>
-	<key>Lake Placid</key>
+	<key>LakePlacid</key>
 	<integer>1980</integer>
 	<key>Moscow</key>
 	<integer>1980</integer>
 	<key>Calgary</key>
 	<integer>1988</integer>
-	<key>Los Angeles</key>
+	<key>LosAngeles</key>
 	<integer>1984</integer>
-	<key>BeiJing</key>
-	<integer>2022</integer>
+	<key>Capetown</key>
+	<integer>2010</integer>
 	<key>Albertville</key>
-	<integer>1992</integer>
+	<real>1992</real>
 </dict>
 </plist>
