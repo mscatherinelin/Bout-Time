@@ -8,34 +8,36 @@
 
 import Foundation
 import UIKit
+import GameKit
 
 //enum for all the countries involved in the olympics
 enum CountrySelection: String {
-    case LA
-    case Paris
-    case Tokyo
-    case Pyeongchang
-    case Rio
-    case Sochi
     case London
     case Vancouver
-    case Beijing
-    case Turin
     case Athens
-    case SaltLakeCity
-    case Sydney
-    case Nagano
-    case Atlanta
-    case Lillehammer
-    case Barcelona
-    case Seoul
-    case Sarajevo
-    case Moscow
-    case Calgary
-    case LosAngeles
-    case Capetown
-    case Albertville
+    case Stockholm
+    case Antwerp
+    case Berlin
+    case Chamonix
     case LakePlacid
+    case LosAngeles
+    case Calgary
+    case Amsterdam
+    case Montreal
+    case Sapporo
+    case Munich
+    case Moscow
+    case Sarajevo
+    case Barcelona
+    case Lillehammer
+    case Atlanta
+    case Nagano
+    case Sydney
+    case Turin
+    case Beijing
+    case Sochi
+    case Rio
+    
 }
 
 protocol OlympicEvent {
@@ -54,11 +56,20 @@ struct Event: OlympicEvent {
 }
 
 class BoutTime: Facts {
-    let selection: [CountrySelection] = [.Albertville, .Athens, .Atlanta, .Barcelona, .Beijing, .Calgary, .Capetown, .LA, .Lillehammer, .London, .LosAngeles, .Moscow, .Nagano, .Pyeongchang, .Paris, .Rio, .SaltLakeCity, .Sarajevo, .Seoul, .Sochi, .Sydney, .Tokyo, .Vancouver, .Turin, .LakePlacid]
+    let selection: [CountrySelection] = [.Athens, .London, .Vancouver, .Stockholm, .Berlin, .Antwerp, .Chamonix, .Amsterdam, .LakePlacid, .LosAngeles, .Calgary, .Montreal, .Sapporo, .Munich, .Moscow, .Sarajevo, .Barcelona, .Lillehammer, .Atlanta, .Nagano, .Sydney, .Turin, .Beijing, .Sochi, .Rio]
     let factList: [CountrySelection : OlympicEvent]
     
     required init(factList: [CountrySelection: OlympicEvent]){
         self.factList = factList
+    }
+    
+    func randomEvent() throws -> Dictionary<CountrySelection, OlympicEvent> {
+        let randomNumber = GKRandomSource.sharedRandom().nextInt(upperBound: factList.count)
+        let countrySelection = selection[randomNumber]
+        guard let event = factList[countrySelection] else {
+            throw FactListError.invalidSelection
+        }
+        return [countrySelection: event]
     }
 }
 

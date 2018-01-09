@@ -24,7 +24,6 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print(boutTime.factList)
     }
 
     override func didReceiveMemoryWarning() {
