@@ -14,7 +14,7 @@
         <!--View Controller-->
         <scene sceneID="ch2-s3-N7f">
             <objects>
-                <viewController id="Ql6-08-OZt" sceneMemberID="viewController">
+                <viewController id="Ql6-08-OZt" customClass="ViewController" customModule="Bout_Time" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="iDk-oe-b5B"/>
                         <viewControllerLayoutGuide type="bottom" id="dSI-uF-szE"/>
@@ -110,6 +110,12 @@
                             <constraint firstItem="AVQ-pB-w3H" firstAttribute="leading" secondItem="aAd-Ky-J2Y" secondAttribute="leadingMargin" constant="22" id="sQv-zS-aMb"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="event1" destination="sRo-wf-j89" id="NVr-T8-pCL"/>
+                        <outlet property="event2" destination="AVQ-pB-w3H" id="xOc-mf-4rD"/>
+                        <outlet property="event3" destination="8xK-5c-67Z" id="CSp-72-UNN"/>
+                        <outlet property="event4" destination="wZ3-oi-cNh" id="gA0-Qf-w3U"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="p73-Uj-1Sp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

@@ -50,6 +50,8 @@ protocol Facts {
     var factList: [CountrySelection: OlympicEvent] { get }
     init(factList: [CountrySelection: OlympicEvent])
     
+    func randomEvent() throws -> Dictionary<CountrySelection, OlympicEvent>
+    
 }
 struct Event: OlympicEvent {
     let year: Int
