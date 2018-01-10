@@ -63,6 +63,7 @@ class BoutTime: Facts {
         self.factList = factList
     }
     
+    //generate random event
     func randomEvent() throws -> Dictionary<CountrySelection, OlympicEvent> {
         let randomNumber = GKRandomSource.sharedRandom().nextInt(upperBound: factList.count)
         let countrySelection = selection[randomNumber]
